@@ -1,0 +1,81 @@
+/bo/configi					ny config-fil til mysqli og utf-8
+/bo/bigmap.php				ny fil til 'vis st�rre kart' OpenStreetmap
+/bo/map.php
+/bo/stylesheet.css			
+/bo/show_img.php			
+/bo/votecontainer.php		
+/bo/voteform.php 			
+/bo/vote.php.php			
+/bo/topmenu.php		
+/bo/bo_sideshow.php
+/bo/posthylla_redir.php
+/bo/tinybox2				hele folderen
+/bo/about.php
+/bo/about.txt
+/bo/gal_ukens.php
+/bo/bo_mypics.php
+/bo/regler_txt.php
+/bo/regler.php
+/bo/copyright.php
+/bo/copyright_txt.php
+/bo/stoett.php
+
+		
+/bo/admin/adm_posthylla.php	
+/bo/admin/adm_ph_cat.php
+/bo/admin/adm_ph_cat_set.php	
+/bo/admin/adm_ph_slet.php	
+/bo/admin/adm_ph_forum_set	
+/bo/admin/adm_ph_gal_set.php
+/bo/admin/adm_ph_copy.php
+/bo/admin/adm_ph_copy_set.php
+/bo/admin/adm_ukens.php
+/bo/admin/adm_ukens_set.php
+/bo/admin/adm_tabeller.php
+/bo/admin/adm_update_folder.php
+/bo/admin/adm_land.php
+/bo/admin/adm_land_add.php
+/bo/admin/adm_kategori.php
+/bo/admin/adm_kategori_add.php
+/bo/admin/adm_kategori_update.php
+/bo/admin/adm_type.php
+/bo/admin/adm_type_add.php
+/bo/admin/adm_type_update.php
+/bo/admin/adm_typeinfo_set.php
+/bo/admin/adm_unit.php
+/bo/admin/adm_unitinfo.php
+/bo/admin/adm_log_user_create.php
+
+/bo/gal_catlist.php
+/bo/gal_typelist.php
+/bo/gal_unitlist.php
+/bo/gal_unit.php
+
+/phorum/templates/furnace/index_new.tpl
+/phorum/templates/furnace/header.tpl
+/phorum/templates/furnace/list_threads.tpl
+/phorum/templates/furnace/list.tpl
+
+/phorum/mods/bbcode/api.php				tilrettet votecontainer
+/phorum/mods/forumstats/templates/emerald/footer.tpl
+
+
+
+
+
+
+
+
+show_img.php
+
+samtlige tabeller erstattet med div-tags
+stjerne-givning nu i overlay-boks som i forummet, så afstemningen er ens begge steder
+i den forbindelse er overlay-boksen redesignet
+geografisk placering vises nu med OpenStreetmap i stedet for Google, for at undgå fremtidige problemer med mastodonten
+Vis større kart - der kan nu vælges mellem OpenStreetmap, Google og Bing
+Admin-linket er flyttet op under billedet og virker nu altid
+koden i de underliggende admin-sider er gennemgået
+de 5 tilfældige billeder forneden: Tilfældighedsgeneratoren er redesignet. Hvis billedet ikke er kategoriseret vies ingen billeder. Mindre rettelse i den grafiske visning (div-tags i stedet for tabeller, og lidt mere luft mellem billederne)
+
+posthylla-admin
+bladring redesignet

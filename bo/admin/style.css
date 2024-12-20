@@ -1,0 +1,363 @@
+body {
+ //height: 100%;
+ text-align: left;
+ margin: 0;
+ padding: 0;
+ background-color: #E6E6E6;
+ font-family: Tahoma, Arial, Helvetica, sans-serif;
+ font-size: 12px ;
+ color: #666666;
+}
+
+
+.admtable  {
+  
+  font-family: Helvetica,Arial,Verdana,Sans-Serif; 
+  font-size: 12px ; 
+  color: #000000;
+  background-color: #E6E6E6;
+
+}
+.admtable td {
+ 	border: 2px solid  #FFFFFF;
+}
+
+
+.admtable1  {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 12px ; 
+  color: #000000;
+}
+
+hr {
+ width: 100%; 
+ height: 1px; 
+ border: 0px; 
+ color: #800000; 
+ background-color: #800000;
+}
+
+FORM{
+margin:0;
+}
+
+.TABLEb   {
+	
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 12px ;
+  color: #000000;
+  border-width: 1px;
+  border-collapse:collapse;
+  border-style:solid;
+  border-color:black;
+  
+}
+
+
+.TDlu       { 
+  border-left-width: 1px;
+  border-left-collapse:collapse;
+  border-left-style:solid;
+  border-left-color:black; 
+}
+
+.TDru       { 
+border-right: 1px solid black; 
+border-top: 1px solid black; 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+}
+
+.TDlu       { 
+border-top: 1px solid black; 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+}
+.TDrb       { 
+border-right: 1px solid black; 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+}
+.TDlb       { 
+ 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+}
+.TD       { 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+
+}
+.TDu       { 
+border-top: 1px solid black; 
+border-bottom: 1px solid black; 
+border-left: 1px solid black;
+
+}
+.TDr       { 
+border-left: 1px solid black; 
+border-bottom: 1px solid black; 
+border-right: 1px solid black;
+
+}
+
+.TDt       { 
+border-top: 1px solid black; 
+border-bottom: 1px solid black;
+}
+
+
+
+.TDleft       { 
+border-left: 1px solid black; 
+}
+
+
+
+.TDi       { 
+border-left: 0px; 
+}
+.TDall      { 
+border-left: 1px solid black; 
+border-right: 1px solid black;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+
+.yellow   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 12px ;
+  font-weight: bold; 
+  background-color: #FFFF99;
+ 
+}
+
+img  {
+  border-width: 0px;
+
+  border-style:solid;
+  border-color:black;
+}
+
+.imgu  {
+  border-width: 0px;
+}
+
+
+h1   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size  : 25px;
+  font-weight: bold; 
+  color: #000000;
+}
+
+h2   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 16px ; 
+  color: #000000;
+}
+h3   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 9px ; 
+  color: #000000;
+}
+
+.h1   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size  : 25px;
+  font-weight: bold; 
+  color: #000000;
+}
+
+.h2   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 16px ; 
+  color: #000000;
+}
+.h3   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 9px ; 
+  color: #000000;
+  font-weight: bold;
+}
+
+.h4   {
+  font-family: Tahoma, Arial, Helvetica, sans-serif; 
+  font-size: 10px ; 
+  color: #000000;
+}
+
+
+
+input.button {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10px; 
+  color: #000000; 
+  background-color: #CCCCCC; 
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+input.area {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10px; 
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+.area {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10px; 
+  color: #000000; 
+  background-color: #FFFFFF; 
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+.d1   {
+  font-size: 9px ; 
+  color: #000000;
+}
+
+A.norm:visited	{ color: #0000FF; text-decoration: none; }
+A.norm:active { color: #0000FF; text-decoration: none; }
+A.norm:link	{  color: #0000FF; text-decoration: none; }
+A.norm:hover	{   color: #0000FF; text-decoration: none; }  
+
+A.high:visited	{ color: #FF0000; text-decoration: none; }
+A.high:active { color: #FF0000; text-decoration: none; }
+A.high:link	{  color: #FF0000; text-decoration: none; }
+A.high:hover	{   color: #FF0000; text-decoration: none; } 
+
+A.women:visited	{ color: #FF0000; text-decoration: none; }
+A.women:active { color: #FF0000; text-decoration: none; }
+A.women:link	{  color: #FF0000; text-decoration: none; }
+A.women:hover	{   color: #FF0000; text-decoration: none; }  
+
+A.neutral:visited	{ color: #666666; text-decoration: none; }
+A.neutral:active { color: #666666; text-decoration: none; }
+A.neutral:link	{  color: #666666; text-decoration: none; }
+A.neutral:hover	{   color: #666666; text-decoration: none; } 
+
+
+.cat_box {
+ /* width: 600px; */
+ width: 800px;
+ height: 220px;
+ display: block;
+	}
+.cat_left {
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	display:inline-block;	
+}
+
+.cat_right {
+	/* width: 400px; */
+  width: 600px;
+  height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: inline-block;	
+}
+
+.phylla_frame {
+ padding:10px;
+ border:1px solid black;
+ width:980px; 
+ background-color: #FFFFFF; 
+ text-align: left;	
+}
+
+.phylla_img {
+ width: 270px;
+ display: inline-block;
+ float: left;
+}
+	
+.phylla_text {
+ vertical-align: top;
+ width: 475px;
+ display: inline-block;
+ color: #000000;
+}
+
+.phylla_text_left {
+ width: 80px;
+ display: inline-block;
+ float: left;
+}
+
+.phylla_text_right {
+ width: 380px;
+ display: inline-block;
+}
+
+.phylla_buttons {
+ vertical-align: top;
+ width: 220px;
+ display: inline-block;	
+	}
+	
+.phylla_line {
+ display: table;
+	}
+	
+.phylla_bottom_line {
+ display: block;
+ height: 28px;
+ line-height: 28px;
+}
+
+.ukens_cell {
+ width: 202px;
+ display: inline-block;
+// float: left;
+ vertical-align: top;
+ color: #000000;
+}
+
+.ukens_line {
+ width: 1240px;
+ height: 100px;
+ display: table-cell;	 
+}
+
+.ukens_innercell {
+ width: 196px; 
+ height: 18px; 
+ text-align: center; 
+ background-color: #333333;		
+}
+
+.ukens_lefttext {
+ width: 70px;
+ display: inline-block;
+ float: left;
+ color: #000000;
+ 	
+}
+.ukens_righttext {
+ display: inline-block;
+ float: left;
+ color: #000000;
+}
+
+.ukens_leftspace {
+ display: inline-block;
+ float: left;
+ width: 120px;	
+ height: 100px;
+}
+
+.ukens_imgblock {
+ display: inline-block;
+ width: 290px;	
+}
+
+
+

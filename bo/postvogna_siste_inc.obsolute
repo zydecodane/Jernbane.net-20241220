@@ -1,0 +1,28 @@
+<?php include('bo_sideshow.php'); ?><?php
+
+//include('config.php');
+$a=0;
+$getthread = MySql_query("SELECT message_id,forum_id,thread,author,subject from phorum_messages WHERE forum_id <> 2 ORDER BY message_id DESC LIMIT 0,20");
+while ($t_id = mysql_fetch_row($getthread))
+  { 
+	$mes_id[$a] = $t_id[0];
+    $forum_id[$a] = $t_id[1];
+    $thread_id[$a] = $t_id[2];
+    $author[$a] = $t_id[3];
+    $subject[$a] = $t_id[4];
+	if ($f =='phorum' ) { $subject[$a] = $subject[$a]; }
+    $a=$a+1;
+	}
+	?>
+      <div class="gal_siste_pv"><p style="text-align:center;"><b><font color='ffffff' size=4>Det siste fra Postvogna</font></b><p><ul style="margin-left:0em;padding-left:0em" class="gal_siste_pv">
+<?php
+for ($n = 0 ; $n<20 ; $n++){	
+//Echo $mes_id[$n]." -1<br>";
+//Echo $forum_id[$n]." -2<br>";
+//Echo $thread_id[$n]." -3<br>";
+Echo "<li class='gal_siste_pv' style='margin-left:0em;text-align:left;padding-left: 0em;background:url(../dot.gif) 0em 0.0em no-repeat;padding-left: 0.8em;list-style: none;'>&nbsp;<a href=http://jernbane.net/phorum/read.php?".$forum_id[$n].",".$thread_id[$n].",".$mes_id[$n]."#msg-".$mes_id[$n]." style='text-decoration: none;'><font color='ffffff' style='text-decoration: none;'>".$subject[$n]."</font></a><br><br></li>";
+}
+?></ul>
+<div class="fb-like-box" data-href="http://www.facebook.com/jernbane.net" data-width="260" data-show-faces="true" data-colorscheme="dark" data-stream="false" data-header="false" data-border-color="#333333"></div>
+
+</div>

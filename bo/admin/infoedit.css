@@ -1,0 +1,12 @@
+/* 
+    Document   : infoedit.css
+    Created on : Sep 17, 2015, 12:54:48 AM
+    Author     : rune
+    Description:
+        CSS for the infoedit kode
+*/
+
+#textinfo-tinymce-editor {
+    height: 100%;
+    width: 750px;
+}

@@ -1,0 +1,38 @@
+/* 
+    Document   : typeinfo
+    Created on : Oct 6, 2015, 2:35:23 PM
+    Author     : rune
+    Description:
+        Stylesheet for visning av type info
+*/
+
+
+h1.info_heading { color: #548dc4; text-align: left; margin: 20px 40px 20px 0px; text-decoration: underline; font-size:120%; display: inline;  }
+h2.info_type_heading { color: #548dc4;  margin: 20px 0px 5px 20px; }
+div.info_type_content { margin: 0px 0px 0px 20px; }
+p.tekst_tittel { font-size:110%; font-weight: bold; margin-bottom: -7px; margin-top: 3px;}
+.tekst_body { font-weight: normal; margin-bottom: 0px; }
+p.infotype_tittel { font-size:110%; font-weight: bold; margin-bottom: 5px; margin-top: 3px;}
+div.tekst_boks { padding: 3px 10px 3px 10px; border-collapse: collapse; border: 0px solid #CCB;  }
+table.infotable { border-collapse: collapse; border: 1px solid #CCB; 
+                    -moz-box-shadow: 3px 3px 4px #888; -webkit-box-shadow: 3px 3px 4px #888; box-shadow: 3px 3px 4px #888; }
+table.rellinkstable { border-collapse: collapse; border: 1px solid #CCB;  
+                    -moz-box-shadow: 3px 3px 4px #888; -webkit-box-shadow: 3px 3px 4px #888; box-shadow: 3px 3px 4px #888; }
+caption.infotable_caption {  text-align: left;  margin-bottom: 5px; padding: 2px; font-size:120%;  font-weight: bold; }
+td.infotable_title {  background: #990000; text-align: left; color: #FDFDFD; padding: 2px; font-size:13px;  }
+td.infotable_coltitle { text-decoration: none; text-align: center; font-weight: bold; background: #dddddd; }
+td.infotable_heading { text-decoration: none; text-align: center; padding: 3px; font-weight: bold; }
+td.pictable_title {  background: #990000; text-align: center; color: #FDFDFD; padding: 2px; font-size:13px;  }
+td.pictable_cell { text-decoration: none; text-align: center; width: 200px; padding: 3px; }
+td.pictable_kommentar { text-decoration: none; text-align: center; padding: 3px; }
+td.pictable_heading { text-decoration: none; text-align: center; padding: 3px; font-weight: bold; }
+td.spectable_kat { text-decoration: none; text-align: left; font-weight: bold; }
+td.spectable_info { text-decoration: none; text-align: left; }
+img.info_fullsize { width:100%; float:none; }
+img.infotable_thumb { -moz-box-shadow: 3px 3px 4px #888; -webkit-box-shadow: 3px 3px 4px #888; box-shadow: 3px 3px 4px #888; }
+img.info_fullimgview { max-height: 1400; max-width: 1400; width:100%; height:100%; }
+div.info_float_right { float:right; margin: 5px 20px 5px 10px; }
+div.info_float_left { float:left; margin-right: 20px; }
+div.info_vertical_imgtable { }
+div.info_block { margin: 5px 10px 10px 10px; }
+div.mobile_info_block { margin: 5px 3px 10px 3px; padding-right: 10px; width: 98%; width: calc(100% - 4); text-align: left; }

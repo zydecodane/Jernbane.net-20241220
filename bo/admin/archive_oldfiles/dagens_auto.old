@@ -1,0 +1,20 @@
+<?php
+include('configi.php');
+
+$til = mktime(19, 0, 0);
+$fra = $til-86400;
+$til=$til-1;
+
+$query = "select id, stemmer*poeng as stjerner from gal_images where timestamp between '$fra' and '$til' and poeng > 0 order by 2 desc limit 1";
+
+@$result = $db->query($query)->fetch_object()->id;
+
+// skriv til gal_dagens
+if ($result > 0) {
+
+$datetime = date('U');
+$query = "insert into gal_dagens (imgid, datetime) values('$result','$datetime')"; 
+$result = mysqli_query($db, $query);
+}
+
+?>
